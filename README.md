@@ -1,71 +1,84 @@
-<<<<<<< HEAD
-# google-sheet-replica
-=======
-# Google Sheets Replica - Web Application
+# Google Sheets Replica
 
-## 📌 Project Overview
-This project is a web-based spreadsheet application that mimics the UI and core functionalities of Google Sheets. It includes features such as cell editing, basic mathematical functions, data validation, and formatting options to enhance user experience.
+This project is a simplified replica of Google Sheets, built using React. It aims to provide a basic interactive spreadsheet experience within a web browser.
 
-## 🔥 Features Implemented
-### 1️⃣ Spreadsheet Interface
-✔ Google Sheets-like UI (Toolbar, Formula Bar, Cell Grid)
+## Features
 
-✔ Drag-and-Drop functionality for cell content
+* **Grid-based Interface:** Displays a grid of cells similar to Google Sheets.
+* **Cell Editing:** Allows users to edit the content of individual cells.
+* **Basic Styling:** Provides a clean and functional user interface.
 
-✔ Support for bold, italics, font size, and color formatting
+## Technologies Used
 
-✔ Add, delete, and resize rows & columns
+* React
+* (Optional: any styling library you used like styled-components, material-ui etc. add if you used)
 
-✔ Cell dependencies for formulas 
+## Getting Started
 
-### 2️⃣ Mathematical Functions
-✔ SUM(range): Adds values in the given range
+These instructions will guide you through setting up and running the project on your local machine.
 
-✔ AVERAGE(range): Computes average of values
+### Prerequisites
 
-✔ MAX(range): Returns the highest value
+* **Node.js and npm (or yarn):** Make sure you have Node.js and npm (or yarn) installed. You can download them from [nodejs.org](https://nodejs.org/).
 
-✔ MIN(range): Returns the lowest value
+### Installation
 
-✔ COUNT(range): Counts numerical values in a range
+1.  **Clone the repository:**
 
+    ```bash
+    git clone https://github.com/PalGabani/google-sheets-replica.git
+    cd google-sheets-replica
+    ```
 
-### 3️⃣ Data Quality Functions
-✔ TRIM(text): Removes extra spaces
+2.  **Install dependencies:**
 
-✔ UPPER(text): Converts text to uppercase
+    ```bash
+    npm install
+    # or if you use yarn
+    # yarn install
+    ```
 
-✔ LOWER(text): Converts text to lowercase
+    This command will install all the necessary packages listed in the `package.json` file, including React and other dependencies.
 
-✔ REMOVE_DUPLICATES(range): Eliminates duplicate rows
+### Running the Application
 
-✔ FIND_AND_REPLACE(find, replace, range): Finds and replaces text
+1.  **Start the development server:**
 
+    ```bash
+    npm start
+    # or if you use yarn
+    # yarn start
+    ```
 
-### 4️⃣ Data Entry & Validation
-✔ Supports numbers, text, and dates
+2.  **Open in your browser:**
 
-✔ Prevents invalid inputs (e.g., only numbers in numeric cells)
+    The application will automatically open in your default browser at `http://localhost:3000`. If it doesn't, you can manually open it.
 
-✔ Displays validation messages for incorrect entries
+### Build (Optional)
 
+If you want to create a production build of the application:
 
-## 💻 Tech Stack Used
-| Technology  | Purpose  |
-|-------------|----------|
-| HTML   | Structure of the web application |
-| CSS    | Styling for a clean and responsive UI |
-| JavaScript | Core logic for cell interactions, functions & validation |
-| React.js | For better UI state management |
+```bash
+npm run build
+# or if you use yarn
+# yarn build
 
+### How it Works
 
-## 🌍 Live Demo
- Click here to try the live demo - https://google-sheets-replica-hxq1yvngr-karna-ms-projects.vercel.app
+This React application simulates the basic functionality of Google Sheets. Here's a breakdown of how it works:
 
+1.  **Initial Grid Display:** Upon opening the application, you'll see a grid of cells, representing the spreadsheet.
 
-### 📢 Notes
-- Ensure all JavaScript functions work as expected with live data.
-- If React is used, update the setup steps accordingly.
+2.  **Cell Editing:**
+    * Click on any cell to activate editing mode.
+    * Type your desired content into the cell.
+    * Press Enter or click outside the cell to save the changes.
 
-Developed by Karna M 🚀
->>>>>>> 9e5f717 (Initial Commit)
+3.  **Adding New Sheets:**
+    * Look for the "Add Sheet" icon (usually a "+" symbol) located at the bottom left of the application.
+    * Clicking this icon will create a new sheet, typically named "Sheet1," "Sheet2," and so on.
+
+4.  **Sheet Navigation:**
+    * After adding a sheet, the sheet name will appear as a tab or button at the bottom of the application.
+    * Click on a sheet's name to switch to that sheet and perform tasks within it.
+    * Each sheet will have its own independent grid.
