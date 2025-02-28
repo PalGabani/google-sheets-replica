@@ -1,32 +1,32 @@
-# Google Sheets Replica
+# 📊 Google Sheets Replica
 
 This project is a simplified replica of Google Sheets, built using React. It aims to provide a basic interactive spreadsheet experience within a web browser.
 
-## Features
+## ✨ Features
 
 * **Grid-based Interface:** Displays a grid of cells similar to Google Sheets.
-* **Cell Editing:** Allows users to edit the content of individual cells.
-* **Basic Styling:** Provides a clean and functional user interface.
+* **✏️ Cell Editing:** Allows users to edit the content of individual cells.
+* **🎨 Basic Styling:** Provides a clean and functional user interface.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 * React
 * (Optional: any styling library you used like styled-components, material-ui etc. add if you used)
 
-## Getting Started
+## 🚀 Getting Started
 
 These instructions will guide you through setting up and running the project on your local machine.
 
-### Prerequisites
+### 📋 Prerequisites
 
 * **Node.js and npm (or yarn):** Make sure you have Node.js and npm (or yarn) installed. You can download them from [nodejs.org](https://nodejs.org/).
 
-### Installation
+### 📦 Installation
 
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/PalGabani/google-sheets-replica.git
+    git clone [https://github.com/PalGabani/google-sheets-replica.git](https://github.com/PalGabani/google-sheets-replica.git)
     cd google-sheets-replica
     ```
 
@@ -40,7 +40,7 @@ These instructions will guide you through setting up and running the project on 
 
     This command will install all the necessary packages listed in the `package.json` file, including React and other dependencies.
 
-### Running the Application
+### 🏃 Running the Application
 
 1.  **Start the development server:**
 
@@ -54,7 +54,7 @@ These instructions will guide you through setting up and running the project on 
 
     The application will automatically open in your default browser at `http://localhost:3000`. If it doesn't, you can manually open it.
 
-### Build (Optional)
+### 🏗️ Build (Optional)
 
 If you want to create a production build of the application:
 
@@ -62,9 +62,9 @@ If you want to create a production build of the application:
 npm run build
 # or if you use yarn
 # yarn build
+```
 
-
-## How it Works
+### ⚙️ How it Works
 
 This React application simulates the basic functionality of Google Sheets. Here's a breakdown of how it works:
 
@@ -79,4 +79,33 @@ This React application simulates the basic functionality of Google Sheets. Here'
     * Look for the "Add Sheet" icon (usually a "+" symbol) located at the bottom left of the application.
     * Clicking this icon will create a new sheet, typically named "Sheet1," "Sheet2," and so on.
 
+
+###  📁 Project Structure
+```
+GOOGLE_SHEET_REPLICA
+└── Google-Sheets-Replica
+    ├── node_modules/
+    ├── public/
+    │   ├── index.html
+    │   ├── manifest.json
+    │   ├── robots.txt
+    │   ├── screenshot.png
+    │   └── sheets.png
+    └── src/
+        ├── CellActions/
+        ├── FormulaActions/
+        ├── Grid/
+        ├── PageActions/
+        ├── SheetBar/
+        ├── App.css
+        ├── App.js
+        ├── index.js
+        ├── infixToPostfix.js
+        ├── reducer.js
+        └── utilities.js
+    ├── .gitignore
+    ├── package-lock.json
+    └── package.json
+
+```
 
