@@ -4,7 +4,7 @@ This project is a simplified replica of Google Sheets, built using React. It aim
 
 ## ✨ Features
 
-* **Grid-based Interface:** Displays a grid of cells similar to Google Sheets.
+* **📅Grid-based Interface:** Displays a grid of cells similar to Google Sheets.
 * **✏️ Cell Editing:** Allows users to edit the content of individual cells.
 * **🎨 Basic Styling:** Provides a clean and functional user interface.
 
@@ -70,14 +70,15 @@ This React application simulates the basic functionality of Google Sheets. Here'
 
 1.  **Initial Grid Display:** Upon opening the application, you'll see a grid of cells, representing the spreadsheet.
 
-2.  **Cell Editing:**
+2.  **Adding New Sheets:**
+    * Look for the "Add Sheet" icon (usually a "+" symbol) located at the bottom left of the application.
+    * Clicking this icon will create a new sheet, typically named "Sheet1," "Sheet2," and so on.
+      
+3.  **Cell Editing:**
     * Click on any cell to activate editing mode.
     * Type your desired content into the cell.
     * Press Enter or click outside the cell to save the changes.
 
-3.  **Adding New Sheets:**
-    * Look for the "Add Sheet" icon (usually a "+" symbol) located at the bottom left of the application.
-    * Clicking this icon will create a new sheet, typically named "Sheet1," "Sheet2," and so on.
 
 
 ###  📁 Project Structure
