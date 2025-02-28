@@ -26,7 +26,7 @@ These instructions will guide you through setting up and running the project on 
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/PalGabani/google-sheets-replica.git](https://github.com/PalGabani/google-sheets-replica.git)
+    git clone https://github.com/PalGabani/google-sheets-replica.git
     cd google-sheets-replica
     ```
 
