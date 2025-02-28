@@ -63,7 +63,8 @@ npm run build
 # or if you use yarn
 # yarn build
 
-### How it Works
+
+## How it Works
 
 This React application simulates the basic functionality of Google Sheets. Here's a breakdown of how it works:
 
@@ -78,7 +79,4 @@ This React application simulates the basic functionality of Google Sheets. Here'
     * Look for the "Add Sheet" icon (usually a "+" symbol) located at the bottom left of the application.
     * Clicking this icon will create a new sheet, typically named "Sheet1," "Sheet2," and so on.
 
-4.  **Sheet Navigation:**
-    * After adding a sheet, the sheet name will appear as a tab or button at the bottom of the application.
-    * Click on a sheet's name to switch to that sheet and perform tasks within it.
-    * Each sheet will have its own independent grid.
+
